@@ -45,20 +45,20 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<!-- 移除嵌入式tomcat插件 -->
 			<!-- =====这一段===START==============  -->
-			<exclusions>
+			<!--<exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
-			</exclusions>
+			</exclusions>-->
 			<!-- ===========END=================  -->
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-servlet-api</artifactId>
 			<version>8.0.36</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 
 	<build>
